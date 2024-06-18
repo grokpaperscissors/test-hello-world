@@ -15,8 +15,8 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `Gatsby Travel Website`,
+    description: `A travel website for travel aficionados`,
     author: `@gatsbyjs`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
@@ -30,6 +30,7 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-styled-components`,    
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-source-contentful`,
@@ -37,6 +38,9 @@ module.exports = {
         spaceId: process.env.GATSBY_CONTENTFUL_SPACE_ID ,
         accessToken: process.env.GATSBY_CONTENTFUL_ACCESS_TOKEN
       },
+    },
+    {
+      resolve: `gatsby-plugin-styled-components`
     },
     {
       resolve: `gatsby-plugin-manifest`,
