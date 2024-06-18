@@ -7,6 +7,7 @@
   "dependencies": {
     "dotenv": "^16.4.5",
     "gatsby": "^5.13.5",
+    "gatsby-adapter-netlify": "^1.1.6",
     "gatsby-plugin-image": "^3.13.1",
     "gatsby-plugin-manifest": "^5.13.1",
     "gatsby-plugin-sharp": "^5.13.1",
