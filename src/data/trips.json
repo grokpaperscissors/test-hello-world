@@ -1,0 +1,30 @@
+[
+    {
+        "img": "../assets/images/courses-1.jpg",
+        "alt": "Western Percussion Music",
+        "name": "Western Percussion Music",
+        "button": "Learn More"
+    },
+
+    {
+        "img": "../assets/images/courses-2.jpg",
+        "alt": "Indian Percussion Music",
+        "name": "Indian Percussion Music",
+        "button": "Learn More"
+    },
+
+    {
+        "img": "../assets/images/courses-3.jpg",
+        "alt": "Medieval String Music",
+        "name": "Medieval String Music",
+        "button": "Learn More"
+    },
+
+    {
+        "img": "../assets/images/courses-4.jpg",
+        "alt": "Contemporary String Music",
+        "name": "Contemporary String Music",
+        "button": "Learn More"
+    }
+
+]

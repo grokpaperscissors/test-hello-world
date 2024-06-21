@@ -3,12 +3,14 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Hero from "../components/hero"
 import * as styles from "../components/index.module.css"
+import Trips from "../components/trips"
 
 
 const IndexPage = () => (
   <Layout>
     <div className={styles.textCenter}>
       <Hero/>
+      <Trips heading="Our Popular Programs"/>
     </div>
   </Layout>
 )
