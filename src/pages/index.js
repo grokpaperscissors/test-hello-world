@@ -4,6 +4,7 @@ import Seo from "../components/seo"
 import Hero from "../components/hero"
 import * as styles from "../components/index.module.css"
 import Trips from "../components/trips"
+import Testimonials from "../components/testimonials"
 
 
 const IndexPage = () => (
@@ -11,6 +12,7 @@ const IndexPage = () => (
     <div className={styles.textCenter}>
       <Hero/>
       <Trips heading="Our Popular Programs"/>
+      <Testimonials/>
     </div>
   </Layout>
 )

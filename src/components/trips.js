@@ -25,7 +25,7 @@ const Trips = ({heading}) => {
   function getTrips(data){
     const tripsArray = []
     data.allTripsJson.edges.forEach((item, index) => {
-      const image = getImage(item.node.img.childImageSharp)
+      const image = getImage(item.node.img.childImageSharp);
       tripsArray.push(
         <ProductCard key={index}>
           <ProductImage image={image}
