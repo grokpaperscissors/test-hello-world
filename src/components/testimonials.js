@@ -73,7 +73,7 @@ const TestimonialsContainer=styled.div`
 const TopLine=styled.p`
     color: #077bf1;
     font-size: 1rem;
-    padding-left: 2rem;
+    text-align:left;
     margin-bottom: 0.75rem;
 `
 const Description=styled.p`
