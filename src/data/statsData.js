@@ -3,7 +3,7 @@ import { GiEarthAsiaOceania } from 'react-icons/gi'
 import { MdAirplanemodeActive, MdTimer } from 'react-icons/md'
 import { FaMoneyCheck } from 'react-icons/fa'
 
-const statsData = [
+export const statsData = [
     {
         icon: (<GiEarthAsiaOceania color="#f42ea1"/>),
         title: "Over 100 Courses",
@@ -25,5 +25,3 @@ const statsData = [
         desc: "Our courses are free for students."
     }
 ]
-
-export default statsData

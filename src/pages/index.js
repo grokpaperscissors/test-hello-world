@@ -6,7 +6,7 @@ import * as styles from "../components/index.module.css"
 import Trips from "../components/trips"
 import Testimonials from "../components/testimonials"
 import Stats from "../components/stats"
-
+import Contact from "../components/contact"
 
 const IndexPage = () => (
   <Layout>
@@ -15,6 +15,7 @@ const IndexPage = () => (
       <Trips heading="Our Popular Programs"/>
       <Testimonials/>
       <Stats/>
+      <Contact/>
     </div>
   </Layout>
 )
