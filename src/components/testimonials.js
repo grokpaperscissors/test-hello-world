@@ -32,12 +32,16 @@ const Testimonials = () => {
         <ContentWrapper>
             <ColumnOne>
             <Testimonial>
-                <IoMdCheckmarkCircleOutline/>
+                <IoMdCheckmarkCircleOutline css={`color: #3fffa8;
+                                      font-size: 2rem;
+                                      margin-bottom: 1rem`}/>
                 <h3>Keanu Reeves</h3>
                 <p>"The greatest experience of my life. "</p>
             </Testimonial>
             <Testimonial>
-                <FaRegLightbulb/>
+                <FaRegLightbulb css={`color: #f9b19b;
+                                      font-size: 2rem;
+                                      margin-bottom: 1rem`}/>
                 <h3>Reanu Keeves</h3>
                 <p>"Wonderful.Ecstatic."</p>
             </Testimonial>
@@ -91,7 +95,7 @@ const ContentWrapper=styled.div`
 `
 const ColumnOne=styled.div`
     display: grid;
-    grid-template-column: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 `
 const Testimonial=styled.div`
     padding-top: 1rem;
