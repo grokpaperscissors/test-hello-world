@@ -6,7 +6,7 @@ import { MdLibraryMusic } from "react-icons/md";
 import { Button } from './button'
 
 
-const Trips = ({heading}) => {
+const Programs = ({heading}) => {
   const data = useStaticQuery(graphql`
     query MyQuery {
       allTripsJson {
@@ -58,7 +58,7 @@ const Trips = ({heading}) => {
 
 }
 
-export default Trips
+export default Programs
 
 
 const ProductsContainer = styled.div`
