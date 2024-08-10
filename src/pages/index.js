@@ -12,7 +12,7 @@ const IndexPage = () => (
   <Layout>
     <div className={styles.textCenter}>
       <Hero/>
-      <Trips heading="Our Popular Programs"/>
+      <Programs heading="Our Popular Programs"/>
       <Testimonials/>
       <Stats/>
       <Contact/>
